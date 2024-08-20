@@ -1,11 +1,11 @@
-//base by DGXeon
+//base By MODSDevoloper
 //re-upload? recode? copy code? give credit ya :)
-//YouTube: @DGXeon
-//Instagram: unicorn_xeon13
-//Telegram: t.me/xeonbotinc
-//GitHub: @DGXeon
-//WhatsApp: +916909137213
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@DGXeon
+//YouTube: @bacotamatpro03
+//Instagram: angga01store
+//Telegram: t.me/CobaDuluBaru
+//GitHub: @Thomzh
+//WhatsApp: +62895411941384
+//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@bacotamatpro03
 
 require('./lib/listmenu')
 const {
@@ -111,11 +111,11 @@ let bad = JSON.parse(fs.readFileSync('./src/data/function/badword.json'))
 let premium = JSON.parse(fs.readFileSync('./src/data/role/premium.json'))
 const owner = JSON.parse(fs.readFileSync('./src/data/role/owner.json'))
 //media
-const VoiceNoteXeon = JSON.parse(fs.readFileSync('./XeonMedia/database/xeonvn.json'))
-const StickerXeon = JSON.parse(fs.readFileSync('./XeonMedia/database/xeonsticker.json'))
-const ImageXeon = JSON.parse(fs.readFileSync('./XeonMedia/database/xeonimage.json'))
-const VideoXeon = JSON.parse(fs.readFileSync('./XeonMedia/database/xeonvideo.json'))
-const DocXeon = JSON.parse(fs.readFileSync('./XeonMedia/database/doc.json'))
+const VoiceNoteXen = JSON.parse(fs.readFileSync('./XeonMedia/database/xeonvn.json'))
+const StickerXen = JSON.parse(fs.readFileSync('./XeonMedia/database/xeonsticker.json'))
+const ImageXen = JSON.parse(fs.readFileSync('./XeonMedia/database/xeonimage.json'))
+const VideoXon = JSON.parse(fs.readFileSync('./XeonMedia/database/xeonvideo.json'))
+const DocXen = JSON.parse(fs.readFileSync('./XeonMedia/database/doc.json'))
 const ZipXeon = JSON.parse(fs.readFileSync('./XeonMedia/database/zip.json'))
 const ApkXeon = JSON.parse(fs.readFileSync('./XeonMedia/database/apk.json'))
 
@@ -683,12 +683,12 @@ async function styletext(teks) {
             let users = Object.keys(global.db.data.users)
             let Limitxeon = isPremium ? limit.prem : limit.free
             for (let i of users) {
-               db.data.users[i].limit = Limitxeon
+               db.data.users[i].limit = LimitAngga
             }
             XeonBotInc.sendText('120363167338947238@g.us', { text: `Reset Limit`})
         }
         // Grup Only
-        if (!m.isGroup && !XeonTheCreator && db.data.settings[botNumber].onlygrub ) {
+        if (!m.isGroup && !AnggaOffcTheCreator && db.data.settings[botNumber].onlygrub ) {
         	if (isCommand){
             return replygcxeon(`Hello buddy! Because We Want to Reduce Spam, Please Use Bot in the Group Chat !\n\nIf you have issue please chat owner wa.me/${ownernumber}`)
             }
@@ -2968,7 +2968,7 @@ break
                             showAdAttribution: true,
                             title: botname,
                             body: ownername,
-                            thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+                            thumbnailUrl: 'https://whatsapp.com/channel/0029VaaEwLG72WU0Auv7JO0t',
                             sourceUrl: wagc,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -7348,7 +7348,7 @@ if (typemenu === 'v1') {
                                 showAdAttribution: true,
                                 title: botname,
                                 body: ownername,
-                                thumbnail: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
+                                thumbnail: fs.readFileSync('./XeoMedia/theme/cheemspic.jpg'),
                                 sourceUrl: wagc,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -7366,8 +7366,8 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
-      sourceUrl: ``,
+      thumbnailUrl: 'https://whatsapp.com/channel/0029VaaEwLG72WU0Auv7JO0t',
+      sourceUrl: `https://youtube.com/@MODSDevoloper`,
       mediaType: 1,
       renderLargerThumbnail: true
       }
@@ -7699,8 +7699,8 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
-      sourceUrl: ``,
+      thumbnailUrl: 'https://whatsapp.com/channel/0029VaaEwLG72WU0Auv7JO0t',
+      sourceUrl: `https://youtube.com/@bacotamatpro03`,
       mediaType: 1,
       renderLargerThumbnail: true
       }
@@ -8033,7 +8033,7 @@ if (typemenu === 'v1') {
       title: botname,
       body: ownername,
       thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
-      sourceUrl: ``,
+      sourceUrl: `https://youtube.com/@MODSDevoloper`,
       mediaType: 1,
       renderLargerThumbnail: true
       }
