@@ -1,11 +1,11 @@
-//base by DGXeon
+//base By MODSDevoloper
 //re-upload? recode? copy code? give credit ya :)
-//YouTube: @DGXeon
-//Instagram: unicorn_xeon13
-//Telegram: t.me/xeonbotinc
-//GitHub: @DGXeon
-//WhatsApp: +916909137213
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@DGXeon
+//YouTube: @MODSDevoloper
+//Instagram: angga01store
+//Telegram: t.me/CobaDuluBaru
+//GitHub: @Thomzh
+//WhatsApp: +62895411941384
+//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@bacotamatpro03
 
 const {
    spawn
