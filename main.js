@@ -1,10 +1,10 @@
-//base by DGXeon (Xeon Bot Inc.)
-//YouTube: @DGXeon
-//Instagram: unicorn_xeon13
-//Telegram: t.me/xeonbotinc
-//GitHub: @DGXeon
-//WhatsApp: +916909137213
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@DGXeon
+//base By AnggaOffc (MODSDevoloper Bot Inc.)
+//YouTube: @MODSDevoloper
+//Instagram: angga01store
+//Telegram: t.me/CobaDuluBaru
+//GitHub: @Thomzh
+//WhatsApp: +62895411941384
+//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@bacotamatpro03
 
 require('./settings')
 const makeWASocket = require("@whiskeysockets/baileys").default
@@ -241,7 +241,7 @@ XeonBotInc.sendMessage(anu.id,
 "body": `${ownername}`,
  "previewType": "PHOTO",
 "thumbnailUrl": ``,
-"thumbnail": XeonWlcm,
+"thumbnail": XonWlcm,
 "sourceUrl": `${wagc}`}}})
                 } else if (anu.action == 'remove') {
                 	const xeonbuffer = await getBuffer(ppuser)
@@ -251,16 +251,16 @@ XeonBotInc.sendMessage(anu.id,
                     const xeonmembers = metadata.participants.length
                     xeonbody = `┌─❖
 │「 𝗚𝗼𝗼𝗱𝗯𝘆𝗲 👋 」
-└┬❖ 「 @${xeonName.split("@")[0]}  」
+└┬❖ 「 @${xenName.split("@")[0]}  」
    │✑  𝗟𝗲𝗳𝘁 
    │✑ ${metadata.subject}
    │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
-   │✑ ${xeonmembers}th
+   │✑ ${xenmembers}th
    │✑  𝗧𝗶𝗺𝗲 : 
-   │✑  ${xeontime} ${xeondate}
+   │✑  ${xontime} ${xeondate}
    └───────────────┈ ⳹`
 XeonBotInc.sendMessage(anu.id,
- { text: xeonbody,
+ { text: xenbody,
  contextInfo:{
  mentionedJid:[num],
  "externalAdReply": {"showAdAttribution": true,
@@ -268,8 +268,8 @@ XeonBotInc.sendMessage(anu.id,
  "title": ` ${global.botname}`,
 "body": `${ownername}`,
  "previewType": "PHOTO",
-"thumbnailUrl": ``,
-"thumbnail": XeonLft,
+"thumbnailUrl": `https://whatsapp.com/channel/0029VaaEwLG72WU0Auv7JO0t`,
+"thumbnail": XenLft,
 "sourceUrl": `${wagc}`}}})
 }
 }
@@ -325,7 +325,7 @@ const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 let xeonName = num
 xeonbody = ` 𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘀🎉 @${xeonName.split("@")[0]}, you have been *promoted* to *admin* 🥳`
    XeonBotInc.sendMessage(anu.id,
- { text: xeonbody,
+ { text: xenbody,
  contextInfo:{
  mentionedJid:[num],
  "externalAdReply": {"showAdAttribution": true,
@@ -334,7 +334,7 @@ xeonbody = ` 𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘀🎉 @${xeonName.split("@")[0]}, yo
 "body": `${ownername}`,
  "previewType": "PHOTO",
 "thumbnailUrl": ``,
-"thumbnail": XeonWlcm,
+"thumbnail": XnWlcm,
 "sourceUrl": `${wagc}`}}})
 } else if (anu.action == 'demote') {
 const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
@@ -342,7 +342,7 @@ const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 let xeonName = num
 xeonbody = `𝗢𝗼𝗽𝘀‼️ @${xeonName.split("@")[0]}, you have been *demoted* from *admin* 😬`
 XeonBotInc.sendMessage(anu.id,
- { text: xeonbody,
+ { text: xenbody,
  contextInfo:{
  mentionedJid:[num],
  "externalAdReply": {"showAdAttribution": true,
@@ -350,8 +350,8 @@ XeonBotInc.sendMessage(anu.id,
  "title": ` ${global.botname}`,
 "body": `${ownername}`,
  "previewType": "PHOTO",
-"thumbnailUrl": ``,
-"thumbnail": XeonLft,
+"thumbnailUrl": `https://whatsapp.com/channel/0029VaaEwLG72WU0Auv7JO0t`,
+"thumbnail": AnggaLft,
 "sourceUrl": `${wagc}`}}})
 }
 }
@@ -594,7 +594,7 @@ return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net'
     return XeonBotInc
 }
 
-startXeonBotInc()
+startAnggaBotInc()
 
 process.on('uncaughtException', function (err) {
 let e = String(err)
